@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mycelium Mechanics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+    <style>
+        body {
+          font-family: Verdana, sans-serif;
+        }
+        .about {
+        }  
+    </style>
+
+    <section class="header">
+        <nav>
+            <a href="index(devyhomepage).html"><img src="ImagesHomepage/kisspng-maastricht-university-university-college-maastrich-universiteit-maastricht-logo-svg-vector-amp-png-5b89c4dd0b8b.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index(devyhomepage).html">HOME</a></li>
+                    <li><a href="index.html">DATABASE</a></li>
+                    <li><a href="index.html">SUBMISSIONS</a></li>
+                    <li><a href="about.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1> Mycelium Mechanics</h1>
+    <p>Mechanical property database of different fungi species and their composites.</p>
+    <a href="index.html" class="hero-btn">Browse Database</a>
+</div>
+</section>
+<!----- ABOUT ------>
+<section class="about">
+    <h1>Our Purpose</h1>
+    <p></p>
+    <div class="row">
+        <div class="about-col">
+            <h3>The Team</h3>
+            <p>We are a passionate group of bachelor students from Maastricht University who are exploring the fascinating world of mycelium and its applications in various fields. Our project aims to harness the mechanical power of mycelium to potentially address environmental challenges and promote sustainable material for the future.</p>
+        </div>  
+        <div class="about-col">
+            <h3>The mission</h3>
+            <p>At the heart of our project is a commitment to finding sustainable solutions for a greater future. We believe that mycelium, the intricate network of thread-like structures found in fungi, holds immense promise in various domains, including biodegradable materials, waste management, and ecological restoration.</p>
+        </div> 
+        <div class="about-col">
+            <h3>What we do</h3>
+            <p> Research and Development: We conduct in-depth research on mycelium's properties, growth patterns, and potential applications.
+                Mushroom sample collection : we collect local mushroom strains from the Limburg area under regulation of the environmental law
+                Mycelium cultivation : Our team cultivate multiple mycelium samples on agar plates 
+                Examination : we conduct mechanical testing and microscopy analysis to further examine the mechanical properties of the different mycelium strains
+                Data access: we created an open-source data-base with all our research data. 
+                
+                
+ </p>
+        </div> 
+    </div>
+</section> 
+    
+<!-------Footer------>
+<section class="footer">
+    <h4></h4>
+    <p></p>
+</section>  
+     
+    
+<!-----Javascript for Toggle Menu------>
+<script>
+    var navLinks= document.getElementById("navLink");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    } 
+     
+

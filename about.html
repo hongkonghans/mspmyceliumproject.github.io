@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mycelium Mechanics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="about.css" />
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+      }
+
+      .grid-item {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+      }
+
+      .card .container h2 {
+        margin-left: 10px;
+      }
+
+      .button {
+        font-size: 15px;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        background-color: #228b22 !important;
+        color: white;
+      }
+
+      /* Rest of your styles */
+    </style>
+
+    <section class="subheader">
+      <nav>
+        <a href="index(devyhomepage).html"
+          ><img
+            src="ImagesHomepage/kisspng-maastricht-university-university-college-maastrich-universiteit-maastricht-logo-svg-vector-amp-png-5b89c4dd0b8b.png"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index(devyhomepage).html">HOME</a></li>
+            <li><a href="index.html">DATABASE</a></li>
+            <li><a href="index.html">SUBMISSIONS</a></li>
+            <li><a href="about.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-------Contact Us------>
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Paul-Henri Spaaklaan 16</h5>
+              <p>229 EN, Maastricht, The Netherlands</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+31 43 388 3455</h5>
+              <p>Get in contact with our University</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <span>
+              <h5>d.railaite@student.maastrichtuniversity.nl</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="#">
+            <input type="text" placeholder="Enter Your Name" required />
+            <input
+              type="email"
+              placeholder="Enter Your Email Address"
+              required
+            />
+            <input type="text" placeholder="Enter Your Subject" required />
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-------Footer------>
+    <section class="footer">
+      <h1><b>Join Us</b></h1>
+      <p>
+        <br />
+        Are you as fascinated by mycelium as we are? If you share our passion
+        for science and innovation, we invite you to join our journey.<br />
+        <br />
+        Whether you are a student, researcher, entrepreneur, or simply curious
+        about mycelium, there are various ways to get involved.<br />
+        <br />Reach out to us through our contact information page and let's
+        work together to shape a greener future.<br />
+      </p>
+    </section>
+
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <style>
+        html {
+          box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+          box-sizing: inherit;
+        }
+
+        .column {
+          float: left;
+          width: 33.3%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+          padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        .title {
+          color: grey;
+        }
+
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+
+        .button:hover {
+          background-color: #555;
+        }
+      </style>
+    </head>
+    <body>
+      <br />
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/dovile.jpeg" alt="Dovilė" style="width: 100%" />
+            <div class="container">
+              <h2>Dovilė</h2>
+              <p class="title">
+                Student leader - Mechanical Testing & Report writing
+              </p>
+
+              <p>d.railaite@student.maastrichtuniversity.nl</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img
+              src="images/julien_1by1.jpg"
+              alt="Julien"
+              style="width: 100%"
+              ;
+            />
+            <div class="container">
+              <h2>Julien</h2>
+              <p class="title">Student leader - Microscopy & Molecular ID</p>
+
+              <p>j.jehasse@student.maastrichtuniversity.nl;</p>
+
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img
+              src="images/Billy pic 1by1.jpg"
+              alt="Billy"
+              style="width: 100%"
+            />
+            <div class="container">
+              <h2>Billy</h2>
+              <p class="title">Student leader - Database & Data processing</p>
+
+              <p>w.zurkan@student.maastrichtuniversity.nl</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <html>
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <style>
+            html {
+              box-sizing: border-box;
+            }
+
+            *,
+            *:before,
+            *:after {
+              box-sizing: inherit;
+            }
+
+            .column {
+              float: left;
+              width: 33.3%;
+              margin-bottom: 16px;
+              padding: 0 8px;
+            }
+
+            @media screen and (max-width: 650px) {
+              .column {
+                width: 100%;
+                display: block;
+              }
+            }
+
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .container {
+              padding: 0 16px;
+            }
+
+            .container::after,
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+
+            .title {
+              color: grey;
+            }
+
+            .button {
+              border: none;
+              outline: 0;
+              display: inline-block;
+              padding: 8px;
+              color: white;
+              background-color: #000;
+              text-align: center;
+              cursor: pointer;
+              width: 100%;
+            }
+
+            .button:hover {
+              background-color: #555;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img
+                  src="images/hannah.jpeg"
+                  alt="Hannah"
+                  style="width: 100%"
+                />
+                <div class="container">
+                  <h2>Hannah</h2>
+                  <p class="title">Mechanical testing & Data processing</p>
+
+                  <p>h.flammang@student.maastrichtuniversity.nl</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img
+                  src="images/orlan1by1.jpg"
+                  alt="Orlando"
+                  style="width: 100%"
+                />
+                <div class="container">
+                  <h2>Orlando</h2>
+                  <p class="title">Mechanical testing & Molecular ID</p>
+
+                  <p>o.young@student.maastrichtuniversity.nl</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="images/marko.jpeg" alt="Markos" style="width: 100%" />
+                <div class="container">
+                  <h2>Markos</h2>
+                  <p class="title">Microscopy team & Report writing</p>
+
+                  <p>m.kyriacou@student.maastrichtuniversity.nl</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <html>
+            <head>
+              <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1"
+              />
+              <style>
+                html {
+                  box-sizing: border-box;
+                }
+
+                *,
+                *:before,
+                *:after {
+                  box-sizing: inherit;
+                }
+
+                .column {
+                  float: left;
+                  width: 33.3%;
+                  margin-bottom: 16px;
+                  padding: 0 8px;
+                }
+
+                @media screen and (max-width: 650px) {
+                  .column {
+                    width: 100%;
+                    display: block;
+                  }
+                }
+
+                .card {
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                }
+
+                .container {
+                  padding: 0 16px;
+                }
+
+                .container::after,
+                .row::after {
+                  content: "";
+                  clear: both;
+                  display: table;
+                }
+
+                .title {
+                  color: grey;
+                }
+
+                .button {
+                  border: none;
+                  outline: 0;
+                  display: inline-block;
+                  padding: 8px;
+                  color: white;
+                  background-color: #000;
+                  text-align: center;
+                  cursor: pointer;
+                  width: 100%;
+                }
+
+                .button:hover {
+                  background-color: #555;
+                }
+              </style>
+            </head>
+            <body>
+              <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img
+                      src="images/judith_1by1.jpg"
+                      alt="Judith"
+                      style="width: 100%"
+                    />
+                    <div class="container">
+                      <h2>Judith</h2>
+                      <p class="title">Microscopy team & Data processing</p>
+
+                      <p>j.villamur-roses@student.maastrichtuniversity.nl</p>
+                      <p><button class="button">Contact</button></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="card">
+                    <img src="images/anna.jpg" alt="Anna" style="width: 100%" />
+                    <div class="container">
+                      <h2>Anna</h2>
+                      <p class="title">Database & Molecular ID</p>
+
+                      <p>a.pihlakas@student.maastrichtuniversity.nl</p>
+                      <p><button class="button">Contact</button></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="card">
+                    <img
+                      src="images/ignas1by1.jpg"
+                      alt="Ignas"
+                      style="width: 100%"
+                    />
+                    <div class="container">
+                      <h2>Ignas</h2>
+                      <p class="title">Database & Report writing</p>
+
+                      <p>i.ciurlionis@student.maastrichtuniversity.nl</p>
+                      <p><button class="button">Contact</button></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----Javascript for Toggle Menu------>
+              <script>
+                var navLinks = document.getElementById("navLink");
+                function showMenu() {
+                  navLinks.style.right = "0";
+                }
+                function hideMenu() {
+                  navLinks.style.right = "-200px";
+                }
+              </script>
+            </body>
+          </html>
+        </body>
+      </html>
+    </body>
+  </body>
+</html>
